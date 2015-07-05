@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-mwl",
+  "version": "0.1.0",
+  "description": "My base eslint config that I use across all projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattlewis92/eslint-config-mwl.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Matt Lewis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattlewis92/eslint-config-mwl/issues"
+  },
+  "homepage": "https://github.com/mattlewis92/eslint-config-mwl#readme"
+}
