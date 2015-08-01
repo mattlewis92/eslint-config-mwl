@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mattlewis92/eslint-config-mwl/issues"
   },
-  "homepage": "https://github.com/mattlewis92/eslint-config-mwl#readme"
+  "homepage": "https://github.com/mattlewis92/eslint-config-mwl#readme",
+  "peerDependencies": {
+    "eslint": "^1.0.0"
+  }
 }

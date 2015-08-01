@@ -1,4 +1,5 @@
 module.exports = {
+  "extends": "eslint:recommended",
   "rules": {
     "quotes": [2, "single"],
     "strict": [2, "global"],
@@ -21,7 +22,6 @@ module.exports = {
     "space-after-keywords": [2, "always"],
     "space-before-blocks": [2, "always"],
     "space-before-function-paren": [2, "never"],
-    "space-in-brackets": [2, "never"],
     "space-in-parens": [2, "never"],
     "space-unary-ops": [2, { "words": true, "nonwords": false }],
     "max-depth": [2, 4],
