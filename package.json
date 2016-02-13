@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mwl",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "My base eslint config that I use across all projects",
   "main": "index.js",
   "repository": {
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/mattlewis92/eslint-config-mwl#readme",
   "peerDependencies": {
-    "eslint": "^1.0.0"
+    "eslint": "^2.0.0"
   }
 }

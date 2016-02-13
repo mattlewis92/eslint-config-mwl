@@ -19,7 +19,6 @@ module.exports = {
     "no-unneeded-ternary": 2,
     "operator-linebreak": 2,
     "quote-props": [2, "as-needed"],
-    "space-after-keywords": [2, "always"],
     "space-before-blocks": [2, "always"],
     "space-before-function-paren": [2, "never"],
     "space-in-parens": [2, "never"],
@@ -30,14 +29,13 @@ module.exports = {
     "no-array-constructor": 2,
     "no-caller": 2,
     "no-catch-shadow": 2,
-    "no-empty-label": 2,
     "no-eval": 2,
     "no-extend-native": 2,
     "no-extra-bind": 2,
     "no-implied-eval": 2,
     "no-iterator": 2,
     "no-label-var": 2,
-    "no-labels": 2,
+    "no-labels": [2, {"allowLoop": true, "allowSwitch": true}],
     "no-lone-blocks": 2,
     "no-loop-func": 2,
     "no-multi-spaces": 2,
@@ -63,7 +61,6 @@ module.exports = {
     "no-use-before-define": 2,
     "no-with": 2,
     "yoda": 2,
-    "space-return-throw-case": 2,
     "comma-spacing": [2, {"before": false, "after": true}],
     "consistent-return": 2,
     "curly": [2, "all"],
@@ -75,6 +72,7 @@ module.exports = {
     "new-parens": 2,
     "semi": [2, "always"],
     "semi-spacing": [2, {"before": false, "after": true}],
-    "space-infix-ops": 2
+    "space-infix-ops": 2,
+    "keyword-spacing": 2
   }
 };
