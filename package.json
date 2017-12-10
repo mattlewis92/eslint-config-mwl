@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mwl",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "My base eslint config that I use across all projects",
   "main": "index.js",
   "repository": {
